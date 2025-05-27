@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Guess the correct box and earn points to get the big price!</h1>
+    </header>
+
+    <main id="body">
+        <section id="info" class="main-section">
+            <h2>Info: Click on one of the 4 boxes below, there's just one correct box. You have 2 attempts to select the correct box and win.</h2>
+            <br>
+            <p><strong>Result:</strong></p>
+            <div id="results">Attempts left: 2</div>
+        </section>
+            <hr>
+            <hr>
+        <section id="flex-container" class="main-section">
+            <div class="item" onclick="gamble()"><p>?</p></div>
+            <div class="item" onclick="gamble()"><p>?</p></div>
+            <div class="item" onclick="gamble()"><p>?</p></div>
+            <div class="item" onclick="gamble()"><p>?</p></div>
+
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <p>All rights reserved. <br>
+        Randy Granda
+        </p>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
